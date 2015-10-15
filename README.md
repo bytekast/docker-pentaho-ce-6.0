@@ -3,7 +3,7 @@ docker-pentaho-ce-6.0
 
 [![Deploy to Tutum](https://s.tutum.co/deploy-to-tutum.svg)](https://dashboard.tutum.co/stack/deploy/)
 
-## Base image for running Pentaho BISERVER CE software within a Docker Container
+## Base image for running Pentaho BA Server CE software within a Docker Container
 
 ### Building
 ```
@@ -33,3 +33,6 @@ Or run in the docker host:
 ```
 docker logs $CONTAINER_ID
 ```
+
+When the server is running (check the logs), go to: http://${DOCKER_HOST_IP}:8888/pentaho
+
